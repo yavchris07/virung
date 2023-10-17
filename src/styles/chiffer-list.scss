@@ -1,0 +1,62 @@
+//SASS PAGE
+$base-color: #c6538c;
+$blac-color:#212121;
+$red: #ff0006;
+$blue:#003464;
+$yellow:#ff9922;
+$back-opacity: rgb(0, 0, 0,.9);
+$white-kolor: #fff;
+$white-opacity:#f9f9f9;
+$white-black:#f7f7f7;
+
+
+.chiffer{
+    width: 85%;
+    margin: auto;
+    // background: $red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 18px;
+
+    .chif{
+        color: $white-kolor;
+        // background: $blue;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        h2{
+            font-size: 40px;
+        }
+        p{font-weight: 600;}
+        span{font-size: 13px;}
+    }
+}
+
+@media screen and (max-width:600px){
+    .chiffer{
+        width: 98%;
+        // height: 80%;
+        margin: auto;
+        // background: $red;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+    
+        .chif{
+            color: $white-kolor;
+            // background: $blue;
+            margin-top: 20px;
+            margin-bottom: 3px;
+            // height: 120px;
+            h2{
+                font-size: 40px;
+                margin: 10px;
+            }
+            p{font-weight: 600;margin: 10px;}
+            span{
+                font-size: 13px;
+                margin: 14px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

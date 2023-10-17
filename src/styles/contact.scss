@@ -1,0 +1,114 @@
+//SASS PAGE
+$base-color: #c6538c;
+$blac-color:#212121;
+// $back-opacity: rgb(33, 33, 33,.9);
+$back-opacity: rgb(0, 0, 0,.9);
+$white-kolor: #fff;
+$white-opacity:#f9f9f9;
+$white-black:#f7f7f7;
+$red: #ff0006;
+$blue:#003464;
+$yellow:#ff9922;
+
+.contact{
+    transition: all 2s;
+    .body{
+        // background: red;
+        width: 85%;
+        margin: auto;
+
+        h1{
+            font-size: 25px;
+        }
+        .adress-phyz{
+            // background-color: #fff;
+            border-left: 7px solid $red;
+            padding-left: 3px;
+        }
+        .adress-elec{
+            // background-color: #fff;
+            border-left: 7px solid $blue;
+            padding-left: 3px;
+        }
+        .adress-tel{
+            // background-color: #fff;
+            border-left: 7px solid $blac-color;
+            padding-left: 3px;
+        }
+        .icons{
+            width: 40%;
+            margin-top: 20px;
+            // background-color: red;
+            img{
+                width: 200px;
+                // height: 100px;
+            }
+        }
+        .icons1{
+            width: 100%;
+            // padding-right: 1px;
+            // background-color: red;
+            text-align: right;
+            img{
+                width: 200px;
+                // height: 100px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .contact{
+        transition: 2s;
+        .body{
+            // background: red;
+            width: 95%;
+            margin: auto;
+    
+            h1{
+                font-size: 20px;
+            }
+            .adress-phyz{
+                background-color: #fff;
+                border-left: 5px solid red;
+                // padding: 2px;
+                // margin: 15px;
+            }
+            .adress-elec{
+                background-color: #fff;
+                border-left: 5px solid #003464;
+                // padding: 2px;
+                // margin: 15px;
+            }
+            .adress-tel{
+                background-color: #fff;
+                border-left: 5px solid $blac-color;
+                // padding: 2px;
+                p{
+                    font-weight: 600;
+                }
+            }
+            .icons{
+                width: 40%;
+                margin-top: 20px;
+                // background-color: red;
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            .icons1{
+                width: 100%;
+                // padding-right: 1px;
+                // background-color: red;
+                text-align: right;
+                img{
+                    width: 100px;
+                    // height: 50px;
+                }
+            }
+        }
+        
+    }
+}

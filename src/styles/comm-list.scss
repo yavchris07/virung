@@ -1,0 +1,58 @@
+//SASS PAGE
+$base-color: #c6538c;
+$blac-color:#212121;
+$red: #ff0006;
+$blue:#003464;
+$yellow:#ff9922;
+$back-opacity: rgb(0, 0, 0,.9);
+$white-kolor: #fff;
+$white-opacity:#f9f9f9;
+$white-black:#f7f7f7;
+
+.comm-list{
+    width: 85%;
+    margin: auto;
+    // background: $red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    cursor: pointer;
+
+    .comm-card{
+        // background: $blue;
+        .cover{
+            background: $blue;
+            height: 300px;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: fill;
+            }
+        }
+        h3{color: $blue;}
+        span{font-weight: 500; font-size: 14px;}
+        small{color: $yellow; font-weight: bold;}
+    }
+}
+
+@media screen and (max-width:600px) {
+    .comm-list{
+        width: 95%;
+        margin: auto;
+        // background: $red;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 5px;
+        cursor: pointer;
+    
+        .comm-card{
+            // background: $blue;
+            .cover{
+                background: $blue;
+                height: 300px;
+            }
+            span{font-weight: 500; font-size: 13px;}
+            small{color: $yellow; font-weight: bold;}
+        }
+    }
+}

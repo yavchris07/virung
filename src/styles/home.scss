@@ -1,0 +1,74 @@
+//SASS PAGE
+$base-color: #c6538c;
+$blac-color:#212121;
+// $back-opacity: rgb(33, 33, 33,.9);
+$back-opacity: rgb(0, 0, 0,.9);
+$white-kolor: #fff;
+$white-opacity:#f9f9f9;
+$white-black:#f7f7f7;
+
+.part-one{
+    width: 100%;
+    margin: auto;
+    // background: green;
+
+    .title{
+        // background-color: red;
+        width: 85%;
+        margin: 10px auto;
+        // margin: 10px 0;
+        h1{
+            margin: 0;
+        }
+        span{
+            font-size: 12px;
+            color: gray;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .part-one{
+        width: 100%;
+        margin: auto;
+        // background: green;
+    
+        .title{
+            // background-color: red;
+            width: 90%;
+            margin: 10px auto;
+            // margin: 10px 0;
+            h1{
+                margin: 0;
+                font-size: 35px;
+            }
+            span{
+                font-size: 15px;
+                color: gray;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .part-one{
+        width: 100%;
+        margin: auto;
+        // background: green;
+    
+        .title{
+            // background-color: red;
+            width: 85%;
+            margin: 10px auto;
+            // margin: 10px 0;
+            h1{
+                margin: 0;
+                font-size: 25px;
+            }
+            span{
+                font-size: 12px;
+                color: gray;
+            }
+        }
+    }
+}

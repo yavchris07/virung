@@ -1,0 +1,60 @@
+.about{
+    .sommary{
+        width: 80%;
+        margin: auto;
+        // text-align: center;
+        font-weight: 600;
+        h4{
+            font-weight: 600;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .about{
+        .sommary{
+            width: 90%;
+            margin: auto;
+            // text-align: center;
+            // font-weight: 400;
+            // background-color: red;
+            font-size: 22px;
+
+            h4{
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about{
+        .sommary{
+            width: 95%;
+            margin: auto;
+            // text-align: center;
+            font-weight: 600;
+            // background-color: blue;
+            font-size: 20px;
+            h4{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:200px) {
+    .about{
+        .sommary{
+            width: 90%;
+            margin: auto;
+            // text-align: center;
+            font-weight: 400;
+            background-color: blue;
+            font-size: 20px;
+            h4{
+                font-weight: 400;
+            }
+        }
+    }
+}
