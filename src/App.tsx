@@ -4,9 +4,9 @@ import Routing from "./routing";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Routing />
-    </div>
+    </>
   );
 }
 

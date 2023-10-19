@@ -14,12 +14,12 @@ export default function NavBar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/apropos"} className="link">
+            <NavLink to={"/ "} className="link">
               Apropos
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/contact"} className="link">
+            <NavLink to={"/ "} className="link">
               Contact
             </NavLink>
           </li>
@@ -30,13 +30,13 @@ export default function NavBar() {
           </li>
 
           <li>
-            <NavLink to={"/contact"} className="link">
+            <NavLink to={"/ "} className="link">
               Ligue 1
             </NavLink>
           </li>
 
           <li>
-            <NavLink to={"/contact"} className="link">
+            <NavLink to={"/ "} className="link">
               Ligue 2
             </NavLink>
           </li>

@@ -1,34 +1,31 @@
 // import React from 'react';
 import '../styles/footer.scss'
-import Item from '../models/items'
-import TODOS from '../models/items-data';
+// import Item from '../models/items'
+// import TODOS from '../models/items-data';
 import { useState } from 'react';
 import icon from '../assets/icons/icon.png';
 import fb from "../assets/icons/fb.png";
 import inst from "../assets/icons/inst.png";
 import twit from "../assets/icons/twit.png";
 
-// type items = {
-//     todos:Item[];
-// }
-
+ 
 function Footer() {
-const [items]=useState<Item[]>(TODOS);
+// const [items]=useState<Item[]>(TODOS);
 
   return (
     <div className='footer'>
       <div className='news-letters'>
         <div className='story'>
             {
-                items.map((item,index) =>(
-                    <div className='card' key={index}>
-                        <h1>{item.title}</h1>
-                        <span>{item.element}</span>
-                        <span>{item.type}</span>
-                        <span>{item.type1}</span>
-                        <p>{item.resume}</p>
-                    </div>
-                ))
+                // items.map((item,index) =>(
+                //     <div className='card' key={index}>
+                //         <h1>{item.title}</h1>
+                //         <span>{item.element}</span>
+                //         <span>{item.type}</span>
+                //         <span>{item.type1}</span>
+                //         <p>{item.resume}</p>
+                //     </div>
+                // ))
             }
         </div>
      

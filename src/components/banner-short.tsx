@@ -10,7 +10,7 @@ function BannerShort({title}:titleProps) {
     <section className='banner1'>
        <div className='cover-short'>
         <h1>{title}</h1>
-        <p>SOCIETE JEMS ENERGY SARL</p>
+        <p>A</p>
        </div>
     </section>
   );
