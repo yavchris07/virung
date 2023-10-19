@@ -1,9 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/nav.scss";
-// import { type } from 'os';
 
-function NavBar() {
+export default function NavBar() {
   return (
     <nav>
       <div className="items">
@@ -66,5 +65,3 @@ function NavBar() {
     </nav>
   );
 }
-
-export default NavBar;

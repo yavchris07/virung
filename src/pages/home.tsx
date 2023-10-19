@@ -1,4 +1,4 @@
-function Home() {
+export default function Home() {
   return (
     <div>
       <h2>Le site web officiel de DC Virunga</h2>
@@ -6,4 +6,3 @@ function Home() {
     </div>
   );
 }
-export default Home;
