@@ -11,7 +11,7 @@ $white-black: #f7f7f7;
 
 nav {
   background: #327334;
-  height: 40px;
+  height: 90px;
   width: 100%;
   display: flex;
   //   justify-content: space-around;
@@ -19,6 +19,7 @@ nav {
   gap: 3px;
   align-items: center;
   margin-bottom: 7px;
+  position: fixed;
 
   .items {
     align-items: center;
@@ -44,12 +45,16 @@ nav {
         text-decoration: none;
         list-style: none;
         color: $white-kolor;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 600;
         .link {
           text-decoration: none;
           color: $white-kolor;
+          &:hover{
+            color: #212121;
+          }
         }
+        
       }
     }
   }

@@ -23,23 +23,7 @@ export default function NavBar() {
               Contact
             </NavLink>
           </li>
-          <li>
-            <NavLink to={"/"} className="link">
-              match
-            </NavLink>
-          </li>
 
-          <li>
-            <NavLink to={"/ "} className="link">
-              Ligue 1
-            </NavLink>
-          </li>
-
-          <li>
-            <NavLink to={"/ "} className="link">
-              Ligue 2
-            </NavLink>
-          </li>
           <li>
             <NavLink to={"/"} className="link">
               Boutique

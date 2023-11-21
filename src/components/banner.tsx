@@ -1,17 +1,28 @@
 import '../styles/banner.scss'
-import { Carousel } from 'antd'
+import { Carousel } from 'antd';
+import Karousel from '../models/carousel';
+import CAROUSEL from '../models/carousel-data'
+
+import { useState } from 'react';
 
 function Banner() {
+
+  const [item] = useState<Karousel[]>(CAROUSEL);
   return (
     <section className='banner'>
       <div className='cover'>
-        <h1>DC VIRUNGA</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Voluptatum molestiae delectus ducimus. Reprehenderit sit impedit harum,
-        </p>
+        <Carousel autoplay> 
+            {
+              item.map((item)=> {
+              return <div>
+                <h1>{item.title}</h1>
+                <img src={item.photo} alt="" />
+              </div>}
+              )
+            }
+        </Carousel>
       </div>
-      <Carousel autoplay> </Carousel>
+      
     </section>
   );
 }
