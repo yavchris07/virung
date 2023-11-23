@@ -1,0 +1,16 @@
+.txt{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .txt{
+        width: 95%;
+        margin: 10px auto;
+        flex-direction: column;
+        // background: red;
+    }     
+}

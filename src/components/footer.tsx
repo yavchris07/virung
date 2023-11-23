@@ -2,11 +2,10 @@
 import '../styles/footer.scss'
 // import Item from '../models/items'
 // import TODOS from '../models/items-data';
-import { useState } from 'react';
-import icon from '../assets/icons/icon.png';
-import fb from "../assets/icons/fb.png";
-import inst from "../assets/icons/inst.png";
-import twit from "../assets/icons/twit.png";
+// import icon from '../assets/icons/icon.png';
+// import fb from "../assets/icons/fb.png";
+// import inst from "../assets/icons/inst.png";
+// import twit from "../assets/icons/twit.png";
 
  
 function Footer() {
@@ -30,8 +29,8 @@ function Footer() {
         </div>
      
         <div className='mailing'>
-            <h4>Nous contacter par mail</h4>
-            <p>Faites nous parvenir vos opinions et suggestions</p>
+            <h4>pour avoir plus de nouvelles de l'équipe</h4>
+            <p>Faites nous parvenir vos e-mails</p>
             <div className='control'>
                 <label htmlFor="">Adresse mail</label>
                 <input 
@@ -51,7 +50,7 @@ function Footer() {
                     <input 
                     type="checkbox" 
                     />
-                    <p>Je désire recevoir de mails de votre part</p>
+                    <p>Je désire recevoir les nouvelles de mon equipe</p>
                 </div>
                 <button>Soumettre</button>
             </div>
@@ -59,12 +58,12 @@ function Footer() {
       </div>
 
       <div className='foot'>
-        <img src={icon} alt="icon" />
-        <p>Jems energy sarl © 2023</p>
+        {/* <img src={icon} alt="icon" /> */}
+        <p>DC Virunga © 2023 | Goma Nord- Kivu</p>
         <div className='links'>
-            <img src={fb} alt="fg" />
+            {/* <img src={fb} alt="fg" />
             <img src={inst} alt="inst" />
-            <img src={twit} alt="twit" />
+            <img src={twit} alt="twit" /> */}
         </div>
       </div>
     </div>

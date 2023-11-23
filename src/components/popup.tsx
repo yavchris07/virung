@@ -1,19 +1,11 @@
-import { NavLink } from "react-router-dom";
-import "../styles/nav.scss";
-import { useState } from "react";
+import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-interface navProps{
-  open? : boolean,
-  // setOpen: () => void
-}
-
-export default function NavBar({open}:navProps) {
-
-  const [isOpen,setIsOpen] =  useState(open)
+export const Popup = () => {
   return (
-    <nav>
-      <h2>DC Virunga</h2>
-      <div className="items">
+    <div> 
+        <div className="items">
+        
         <ul>
           <li>
             <NavLink to={"/"} className="link">
@@ -43,12 +35,6 @@ export default function NavBar({open}:navProps) {
           </li>
         </ul>
       </div>
-      <button 
-        className="menu"
-        onClick={()=> setIsOpen(isOpen)}
-        >
-        x
-      </button>
-    </nav>
-  );
+    </div>
+  )
 }

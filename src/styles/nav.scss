@@ -1,32 +1,35 @@
 //SASS PAGE
 $base-color: #c6538c;
 $blac-color: #212121;
-$red: #ff0006;
-$blue: #003464;
-$yellow: #ff9922;
+// $red: #ff0006;
+// $blue: #003464;
+// $yellow: #ff9922;
 $back-opacity: rgb(0, 0, 0, 0.9);
 $white-kolor: #fff;
 $white-opacity: #f9f9f9;
 $white-black: #f7f7f7;
 
 nav {
-  background: #327334;
-  height: 90px;
+  background: #135715;
+  height: 70px;
   width: 100%;
   display: flex;
-  //   justify-content: space-around;
-  text-align: center;
-  gap: 3px;
-  align-items: center;
-  margin-bottom: 7px;
+  justify-content: space-between;
+  // align-items: center;
+  margin-bottom: 0 7px;
   position: fixed;
+  padding: 1px;
+
+  h2{
+    color: #fff;
+  }
 
   .items {
     align-items: center;
     // background: blue;
-    width: 50%;
-    height: 100%;
-    margin: auto;
+    // width: 50%;
+    // height: 100%;
+    // margin: auto;
     display: flex;
     h2 {
       font-size: 12px;
@@ -57,6 +60,9 @@ nav {
         
       }
     }
+  }
+  .menu{
+    display: none;
   }
 }
 
@@ -99,8 +105,13 @@ nav {
 
 @media screen and (max-width: 600px) {
   nav {
-    background: transparent;
-    // background: $red;
+    // background: transparent;
+    background: green;
+    // position: fixed;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     .icon {
       img {
         height: 120px;
@@ -111,6 +122,7 @@ nav {
     .items {
       align-items: center;
       // background: blue;
+      display: none;
       ul {
         color: $white-kolor;
         li {
@@ -120,6 +132,9 @@ nav {
           font-size: 15px;
         }
       }
+    }
+    .menu{
+      display: block;
     }
   }
 }

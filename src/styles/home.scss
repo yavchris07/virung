@@ -3,7 +3,7 @@ $base-color: #c6538c;
 $blac-color:#212121;
 // $back-opacity: rgb(33, 33, 33,.9);
 $back-opacity: rgb(0, 0, 0,.9);
-$white-kolor: #fff;
+$white: #fff;
 $white-opacity:#f9f9f9;
 $white-black:#f7f7f7;
 
@@ -56,10 +56,10 @@ $white-black:#f7f7f7;
 
 //card
 .card{
-    width: 370px;
+    width: 350px;
     .pic{
         width: 100%;
-        height: 220px;
+        height: 280px;
         background: #c6538c;
     }
     h4{ margin: 2px;}
@@ -74,6 +74,51 @@ $white-black:#f7f7f7;
         .date{
             color: grey;
             font-size: 12px;
+        }
+    }
+}
+
+//match 
+.match{
+    width: 80%;
+    height: 450px;
+    background: url('../assets//IMG-20231017-WA0048.jpg');
+    background-size:cover;
+    margin: 15px auto;
+    .cover{
+        width: 100%;
+        height: 100%;
+        background: rgba(15, 141, 15, 0.7);
+        text-align: center;
+        p{
+            font-size: 40px;
+            padding-top: 200px;
+            color: $white;
+            margin: 5px;
+        }
+        span{
+            color: $white;
+        }
+    }
+}
+
+//linl
+.link{
+    width: 80%;
+    margin: 20px auto;
+    color: #c6538c;
+    text-align: center;
+    a{
+        background: green;
+        padding: 4px 20px;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        &:hover{
+            border-radius: 30px;
+            background: none;
+            border: 1px solid green;
+            color: green;
         }
     }
 }
@@ -109,7 +154,7 @@ $white-black:#f7f7f7;
     
         .title{
             // background-color: red;
-            width: 85%;
+            width: 95%;
             margin: 10px auto;
             // margin: 10px 0;
             h1{
@@ -119,6 +164,83 @@ $white-black:#f7f7f7;
             span{
                 font-size: 12px;
                 color: gray;
+            }
+        }
+    }
+
+    // All title
+    .title{
+        width: 95%;
+        margin: auto;
+        h1{
+            margin: 2px;
+            font-size: 20px;
+        }
+        h4{
+            margin: 40px 5px 2px;
+            color: grey;
+            font-size: 10px;
+        }
+    }
+
+    //container
+    .container{
+        width: 95%;
+        // background: #c6538c;
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 5px;
+        transition: all 2s;
+    }
+
+    //card
+    .card{
+        width: 100%;
+        transition: all 2s;
+        .pic{
+            width: 100%;
+            height: 220px;
+            background: #c6538c;
+        }
+        h4{ margin: 2px;}
+        .under{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .type{
+                background: rgb(0, 128, 0,.5);
+                padding: 5px;
+            }
+            .date{
+                color: grey;
+                font-size: 12px;
+            }
+        }
+    }
+
+    //match 
+    .match{
+        width: 95%;
+        height: 350px;
+        margin: 10px auto;
+        transition: all 2s;
+        .cover{
+            width: 100%;
+            height: 100%;
+            background: rgb(0, 143, 0,.8);
+            background-size:contain;
+            text-align: center;
+            p{
+                font-size: 30px;
+                padding-top: 160px;
+                color: $white;
+                margin: 5px;
+            }
+            span{
+                color: green;
+                background: $white;
+                padding: 5px 15px;
             }
         }
     }

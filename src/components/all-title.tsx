@@ -1,6 +1,3 @@
-import { type } from 'os'
-import React from 'react'
-
 type titleProps ={
     title:string;
     sub:string;

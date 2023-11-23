@@ -9,6 +9,7 @@ import Cards from "../models/card";
 export default function Home() {
 
   const [cards] = useState<Cards[]>(CARD)
+
   return (
     <>
       <Banner />
@@ -30,10 +31,32 @@ export default function Home() {
         }
       </div>
 
+      <div className="link">
+        <a href="./actualites">Plus d'actualités</a>
+      </div>
+
       <AlllTitle 
         title="Match du jour"
         sub="DC VIRUNGA"
       />
+
+      <div className="match">
+        <div className="cover">
+          <p>DC Virunga vs AS Kabasha</p>
+          <span>Ligue 1</span>
+        </div>
+      </div>
+
+      <AlllTitle 
+        title="Entrainement"
+        sub="DC VIRUNGA"
+      />
+      
+      <AlllTitle 
+        title="Nos partenaires"
+        sub="RELATIONSHIP"
+      />
+
     </>
   );
 }

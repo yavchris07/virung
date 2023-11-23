@@ -4,7 +4,7 @@ import Card from "./card";
 export const CARD: Card[] = [
     {
         "id":1,
-        "title":"Nouveau joueur venant de maroc",
+        "title":"Nouveau joueur venant du maroc",
         "photo":"/assets/ee2.jpg",
         "type":"Ligue 1",
         "date": "08 / 2 / 2023"

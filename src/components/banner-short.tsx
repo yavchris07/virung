@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/banner1.scss'
 
 interface titleProps{
@@ -10,7 +9,7 @@ function BannerShort({title}:titleProps) {
     <section className='banner1'>
        <div className='cover-short'>
         <h1>{title}</h1>
-        <p>A</p>
+        <p>L'equipe qui nous rend fier</p>
        </div>
     </section>
   );

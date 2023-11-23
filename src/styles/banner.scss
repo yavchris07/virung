@@ -2,56 +2,50 @@
 $base-color: #c6538c;
 $blac-color: #212121;
 // $back-opacity: rgb(33, 33, 33,.9);
-$back-opacity: rgb(0, 0, 0, 0.9);
+$back-opacity: rgba(4, 58, 4, 0.8);
 $white-kolor: #fff;
 $white-opacity: #f9f9f9;
 
 .banner {
-  // background: url('../assets/Energie-electrique.jpg');
+  background: url('../assets/vb.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   // background: red;
-  height: 500px;
+  height: 550px;
   width: 100%;
   color: $white-kolor;
   text-align: center;
   // padding: 10px;
+  margin: 0px;
 
   .cover {
     width: 100%;
     height: 100%;
     background: $back-opacity;
     // background: red;
-    h1 {
-      padding-top: 220px;
-      margin: 0;
-      font-size: 60px;
-      color: #f9f9f9;
-    }
-    p {
-      font-size: 13px;
-      color: $white-opacity;
-      font-weight: 400;
+    .ca{
+      width: 100%;
+      height: 100%;
     }
   }
 }
 
-// @media screen and (max-width:1024px) {
-//     .about{
-//         .sommary{
-//             width: 90%;
-//             margin: auto;
-//             // text-align: center;
-//             // font-weight: 400;
-//             // background-color: red;
-//             font-size: 22px;
+@media screen and (max-width:1024px) {
+    .about{
+        .sommary{
+            width: 90%;
+            margin: auto;
+            // text-align: center;
+            // font-weight: 400;
+            // background-color: red;
+            font-size: 22px;
 
-//             h4{
-//                 font-weight: 500;
-//             }
-//         }
-//     }
-// }
+            h4{
+                font-weight: 500;
+            }
+        }
+    }
+}
 
 @media screen and (max-width: 600px) {
   .banner {
@@ -67,21 +61,9 @@ $white-opacity: #f9f9f9;
       height: 100%;
       background: $back-opacity;
       // background: red;
-      h1 {
-        padding-top: 220px;
-        margin: 0;
-        font-size: 30px;
-        color: #f9f9f9;
-      }
-      p {
-        font-size: 18px;
-        color: $white-opacity;
-        font-weight: 400;
-        // background: red;
-        // width: 98%;
-        // margin: auto;
-        // text-align:justify;
-        padding: 1px;
+      .cars{
+        width: 100%;
+        height: 100%;
       }
     }
   }
