@@ -29,7 +29,7 @@ function Footer() {
         </div>
      
         <div className='mailing'>
-            <h4>pour avoir plus de nouvelles de l'équipe</h4>
+            <h4>Pour avoir plus de nouvelles de l'équipe</h4>
             <p>Faites nous parvenir vos e-mails</p>
             <div className='control'>
                 <label htmlFor="">Adresse mail</label>

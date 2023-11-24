@@ -81,28 +81,28 @@ export default function NavBar() {
         <div className="it">
         <ul>
           <li>
-            <NavLink to={"/"} className="link">
+            <NavLink to={"/"} className="link" onClick={()=> setIsOpen(false)}>
               ACCUEIL
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/apropos "} className="link">
+            <NavLink to={"/apropos "} className="link" onClick={()=> setIsOpen(false)}>
               APROPOS
             </NavLink>
           </li>
           
           <li>
-            <NavLink to={"/actualites"} className="link">
+            <NavLink to={"/actualites"} className="link" onClick={()=> setIsOpen(false)}>
               ACTUALITES
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/club"} className="link">
+            <NavLink to={"/club"} className="link" onClick={()=> setIsOpen(false)}>
               CLUB
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/programmes"} className="link">
+            <NavLink to={"/programmes"} className="link" onClick={()=> setIsOpen(false)}>
               PROGRAMMES
             </NavLink>
           </li>
