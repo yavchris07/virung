@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/pop.scss';
+import { MdClose } from "react-icons/md";
 
 interface navProps{
   open: boolean,
@@ -29,7 +30,7 @@ export const Popup = ({open,children,onClose}:navProps) => {
           className='pop'
           onClick={onClose} 
         >
-          X
+          <MdClose />
         </button>
         {children}
       </div>

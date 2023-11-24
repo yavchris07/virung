@@ -63,6 +63,7 @@ nav {
   }
   .menu{
     display: none;
+     
   }
 }
 
@@ -108,7 +109,7 @@ nav {
     // background: transparent;
     background: green;
     // position: fixed;
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,6 +136,10 @@ nav {
     }
     .menu{
       display: block;
+      background-color: none;
+      border: none;
+      outline: none;
+      font-size: 22px;
     }
   }
 }

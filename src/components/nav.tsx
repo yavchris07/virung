@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import "../styles/nav.scss";
 import { useState } from "react";
 import { Popup } from "./popup";
+import { SlMenu } from "react-icons/sl";
 
 
 export default function NavBar() {
@@ -45,7 +46,7 @@ export default function NavBar() {
         className="menu"
         onClick={()=> setIsOpen(true)}
         >
-        =
+        <SlMenu />
       </button>
       <Popup open={isOpen} onClose={()=> setIsOpen(false)}>
         {/* <div className="it">

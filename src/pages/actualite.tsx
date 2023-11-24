@@ -1,8 +1,8 @@
-import React,{useState} from 'react';
+import React,{useState,useMemo} from 'react';
 
 
 export const Actualite = () => {
   return (
-    <div>actualite</div>
+    <div> single actualite</div>
   )
 }
