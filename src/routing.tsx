@@ -12,7 +12,7 @@ export default function Routing() {
   return (
     <>
       <BrowserRouter>
-        <NavBar />
+       <NavBar />
         <Routes>
           <Route path="/" Component={Home} />
           {/* <Route path="/about" Component={About} /> */}
@@ -20,7 +20,6 @@ export default function Routing() {
           <Route path='/actualites' Component={Actualites} />
           <Route path='/club' Component={Club} />
           <Route path='/programmes' Component={Programs} />
-
         </Routes>
         <Footer />
       </BrowserRouter>

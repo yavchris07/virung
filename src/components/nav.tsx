@@ -1,15 +1,13 @@
 import { NavLink } from "react-router-dom";
 import "../styles/nav.scss";
 import { useState } from "react";
+import { Popup } from "./popup";
 
-interface navProps{
-  open? : boolean,
-  // setOpen: () => void
-}
 
-export default function NavBar({open}:navProps) {
+export default function NavBar() {
 
-  const [isOpen,setIsOpen] =  useState(open)
+  const [isOpen,setIsOpen] = useState<boolean>(false);
+
   return (
     <nav>
       <h2>DC Virunga</h2>
@@ -45,10 +43,72 @@ export default function NavBar({open}:navProps) {
       </div>
       <button 
         className="menu"
-        onClick={()=> setIsOpen(isOpen)}
+        onClick={()=> setIsOpen(true)}
         >
-        x
+        =
       </button>
+      <Popup open={isOpen} onClose={()=> setIsOpen(false)}>
+        {/* <div className="it">
+          <ul>
+            <li>
+              <NavLink to={"/"} className="link">
+                ACCUEIL
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to={"/apropos "} className="link">
+                APROPOS
+              </NavLink>
+            </li>
+            
+            <li>
+              <NavLink to={"/actualites"} className="link">
+                ACTUALITES
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to={"/club"} className="link">
+                CLUB
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to={"/programmes"} className="link">
+                PROGRAMMES
+              </NavLink>
+            </li>
+          </ul>
+        </div> */}
+        <div className="it">
+        <ul>
+          <li>
+            <NavLink to={"/"} className="link">
+              ACCUEIL
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to={"/apropos "} className="link">
+              APROPOS
+            </NavLink>
+          </li>
+          
+          <li>
+            <NavLink to={"/actualites"} className="link">
+              ACTUALITES
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to={"/club"} className="link">
+              CLUB
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to={"/programmes"} className="link">
+              PROGRAMMES
+            </NavLink>
+          </li>
+        </ul>
+        </div>
+      </Popup>
     </nav>
   );
 }

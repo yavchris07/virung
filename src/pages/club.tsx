@@ -29,9 +29,9 @@ export const Club = () => {
         <ClubCard />
         <ClubCard />
         <ClubCard />
+        {/* <ClubCard />
         <ClubCard />
-        <ClubCard />
-        <ClubCard />
+        <ClubCard /> */}
     </div>
     <AlllTitle 
         title="Les joueurs"

@@ -27,14 +27,26 @@ export const About = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores omnis culpa deserunt facilis, hic sint nulla blanditiis harum officia repudiandae officiis doloribus molestiae repellendus ullam dignissimos adipisci vel.
         </div>
 
-         <AlllTitle 
-        title="En Linafoot"
+        <AlllTitle 
+        title="Palmares"
         sub="DC VIRUNGA"
         />
         <div className='txt'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur, sapiente fugit repellat non unde nam ab explicabo nihil culpa quaerat sit minus porro commodi? Corporis neque in maiores fuga.
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores omnis culpa deserunt facilis, hic sint nulla blanditiis harum officia repudiandae officiis doloribus molestiae repellendus ullam dignissimos adipisci vel. Nobis atque saepe, consectetur quaerat doloribus ratione,
         </div>
+        <AlllTitle 
+        title="Academie"
+        sub="DC VIRUNGA"
+        />
+          <AlllTitle 
+        title="Mercato"
+        sub="DC VIRUNGA"
+        />
+          <AlllTitle 
+        title="Fanatiques"
+        sub="DC VIRUNGA"
+        />
         <AlllTitle 
         title="Adresse et contacts"
         sub="DC VIRUNGA"

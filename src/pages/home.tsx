@@ -5,13 +5,16 @@ import { useState } from "react";
 import Card from "../components/card";
 import CARD from "../models/card-data";
 import Cards from "../models/card";
+import NavBar from "../components/nav";
 
 export default function Home() {
 
-  const [cards] = useState<Cards[]>(CARD)
+  const [cards] = useState<Cards[]>(CARD);
+  // const [open, setOpen] = useState(false);
 
   return (
     <>
+     <NavBar />
       <Banner />
       <AlllTitle 
         title="Actualités du club"
@@ -46,6 +49,9 @@ export default function Home() {
           <span>Ligue 1</span>
         </div>
       </div>
+      {/* <Popup trigger={open}>
+        <p>hello</p>
+      </Popup> */}
 
       <AlllTitle 
         title="Entrainement"

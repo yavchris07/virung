@@ -1,0 +1,43 @@
+@media screen and (max-width: 600px) {
+    
+    .pop-up-container{
+        // width: 100%;
+        background:  rgb(1, 59, 1);
+        // position: absolute;
+        // color: #fff;
+        height: 500px;
+        // background : #000;
+        font-size:20px;
+        color:#fff;
+        width:100%;
+        position: fixed;
+        // margin-top:400px;
+        z-index: 1000;
+        padding-top: 25px;
+        padding-top: 420px;
+        // padding-bottom: 50px;
+
+        .pop-up{
+            // background: #fff;
+            .pop{
+                margin-top: 20px;
+            }
+            .it{
+                align-items: center;
+                ul {
+                  color: #fff;
+                  li {
+                    text-decoration: none;
+                    list-style: none;
+                    color: #fff;
+                    font-size: 20px;
+                    margin: 20px;
+                    .link{
+                        color: #fff;
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
