@@ -5,7 +5,7 @@ export const ClubCard = () => {
             <img src={''} alt="" />
         </div>
         <p>Identite de la personne</p>
-        <p style={{color:'grey'}}>poste</p>
+        <p style={{color:'grey'}}>Titre</p>
     </div>
   )
 }

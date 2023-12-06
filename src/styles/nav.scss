@@ -1,17 +1,15 @@
 //SASS PAGE
 $base-color: #c6538c;
 $blac-color: #212121;
-// $red: #ff0006;
-// $blue: #003464;
-// $yellow: #ff9922;
 $back-opacity: rgb(0, 0, 0, 0.9);
 $white-kolor: #fff;
 $white-opacity: #f9f9f9;
-$white-black: #f7f7f7;
+$white-black: hsl(0, 0%, 97%);
+$primary: #135715;
 
 nav {
-  background: #135715;
-  height: 80px;
+  background: $white-opacity;
+  height: 60px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -21,7 +19,7 @@ nav {
   padding: 1px;
 
   h2{
-    color: #fff;
+    color: #135715;
   }
 
   .items {
@@ -34,6 +32,7 @@ nav {
     h2 {
       font-size: 12px;
       font-weight: 800;
+      color: $primary;
     }
 
     ul {
@@ -47,12 +46,12 @@ nav {
       li {
         text-decoration: none;
         list-style: none;
-        color: $white-kolor;
+        color: $primary;
         font-size: 14px;
         font-weight: 600;
         .link {
           text-decoration: none;
-          color: $white-kolor;
+          color: $primary;
           &:hover{
             color: #212121;
           }

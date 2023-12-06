@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 interface cardProps{
     id:number;
@@ -9,8 +10,11 @@ interface cardProps{
 }
 
 function Card({id,title,photo,type,date}:cardProps) {
+
+  const nv = useNavigate();
+  
   return (
-    <div className='card'>
+    <div className='card' onClick={()=> nv('/actualite/'+id)}>
         <div className='pic'>
             <img src={photo} alt="" />
         </div>

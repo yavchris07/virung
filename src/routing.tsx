@@ -6,6 +6,7 @@ import { About } from "./pages/about";
 import { Actualites } from "./pages/actualites";
 import { Club } from "./pages/club";
 import { Programs } from "./pages/programs";
+import { Actualite } from "./pages/actualite";
 
 
 export default function Routing() {
@@ -20,6 +21,7 @@ export default function Routing() {
           <Route path='/actualites' Component={Actualites} />
           <Route path='/club' Component={Club} />
           <Route path='/programmes' Component={Programs} />
+          <Route path='/actualite/:id' Component={Actualite} />
         </Routes>
         <Footer />
       </BrowserRouter>

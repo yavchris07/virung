@@ -10,8 +10,7 @@ $white-opacity: #f9f9f9;
   background: url('../assets/vb.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  // background: red;
-  height: 550px;
+  height: 500px;
   width: 100%;
   color: $white-kolor;
   text-align: center;
@@ -21,8 +20,8 @@ $white-opacity: #f9f9f9;
   .cover {
     width: 100%;
     height: 100%;
-    background: $back-opacity;
-    // background: red;
+    background: none;
+    
     .ca{
       width: 100%;
       height: 100%;

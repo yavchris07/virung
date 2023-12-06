@@ -49,36 +49,7 @@ export default function NavBar() {
         <SlMenu />
       </button>
       <Popup open={isOpen} onClose={()=> setIsOpen(false)}>
-        {/* <div className="it">
-          <ul>
-            <li>
-              <NavLink to={"/"} className="link">
-                ACCUEIL
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to={"/apropos "} className="link">
-                APROPOS
-              </NavLink>
-            </li>
-            
-            <li>
-              <NavLink to={"/actualites"} className="link">
-                ACTUALITES
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to={"/club"} className="link">
-                CLUB
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to={"/programmes"} className="link">
-                PROGRAMMES
-              </NavLink>
-            </li>
-          </ul>
-        </div> */}
+
         <div className="it">
         <ul>
           <li>
