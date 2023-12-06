@@ -13,9 +13,9 @@ export default function PlayerCard({player}:playerProp) {
             <img src={player.photo} alt="" />
         </div>
         <div className='note'>
-            <h4>{player.name}</h4>
-            <p>{player.post}</p>
-            <p>{player.dorsal}</p>
+            <h4>Noms : {player.name}</h4>
+            <p>Poste : {player.post}</p>
+            <p>Dorsal :{player.dorsal}</p>
         </div>
     </div>
   )
