@@ -15,7 +15,9 @@ export default function PlayerCard({player}:playerProp) {
         <div className='note'>
             <h4>Noms : {player.name}</h4>
             <p>Poste : {player.post}</p>
-            <p>Dorsal :{player.dorsal}</p>
+            <p>Dossard :{player.dossard}</p>
+            <p>Age :{player.age}</p>
+            <p>Taille :{player.taille}</p>
         </div>
     </div>
   )
